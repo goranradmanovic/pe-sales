@@ -2,11 +2,11 @@
   <div class="bg-white py-16 border-b border-slate-100">
     <div class="container mx-auto px-4">
       <!-- Section Header -->
-      <div class="max-w-2xl mx-auto text-center mb-12">
+      <div class="max-w-4xl mx-auto text-center mb-12">
         <span class="text-xs font-bold tracking-wider text-violet-600 uppercase bg-violet-50 px-3 py-1 rounded-full">
           Now Available
         </span>
-        <h2 class="text-3xl font-bold text-slate-900 mt-3 mb-4">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4">
           Powered by Next-Gen AI Models
         </h2>
         <p class="text-slate-600">
