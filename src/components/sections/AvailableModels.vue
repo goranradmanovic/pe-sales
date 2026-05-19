@@ -3,9 +3,10 @@
     <div class="container mx-auto px-4">
       <!-- Section Header -->
       <div class="max-w-4xl mx-auto text-center mb-12">
-        <span class="text-xs font-bold tracking-wider text-violet-600 uppercase bg-violet-50 px-3 py-1 rounded-full">
-          Now Available
-        </span>
+        <div class="inline-flex items-center gap-2 bg-violet-100 border border-violet-200 rounded-full px-5 py-2 mb-8">
+            <Sparkles class="w-4 h-4 text-violet-600" />
+            <span class="text-sm font-semibold text-violet-700">Now Available</span>
+        </div>
         <h2 class="text-4xl md:text-5xl font-bold mb-4">
           Powered by Next-Gen AI Models
         </h2>
@@ -57,6 +58,7 @@
 <script lang="ts" setup>
   import { ref } from 'vue';
   import AIModel from '../../types/aimodel';
+  import { Sparkles } from '@lucide/vue';
 
   const aiModels = ref<AIModel[]>([
     { 
