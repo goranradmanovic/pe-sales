@@ -6,6 +6,7 @@
 
     <!-- Sections -->
     <Hero @open-dialog="openDialog" />
+    <AvailableModels />
     <AITools />
     <ArtBoard />
     <Pricing />
@@ -35,6 +36,7 @@
   import FooterApp from './components/base/FooterApp.vue';
   import ArtBoard from './components/sections/ArtBoard.vue';
   import StyleCatalog from './components/sections/StyleCatalog.vue';
+import AvailableModels from './components/sections/AvailableModels.vue';
 
   const isOpen = ref<boolean>(false);
   const openDialog = () => {
