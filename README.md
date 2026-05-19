@@ -23,12 +23,14 @@ Below is a step-by-step visual tour of the user journey, layout structure, and c
 | :--- | :--- |
 | **01. Hero & Navigation** <br> Global navigation header with modern backdrop blurs and call-to-actions. | ![Hero Section](./screenshots/1.png) |
 | **02. Core AI Tools Interface** <br> Visual presentation grid showing available AI content creation features. | ![AI Tools Grid](./screenshots/2.png) |
-| **03. Pricing** <br> Filterable hub showcasing premium templates built for online creators. | ![Pricing](./screenshots/3.png) |
-| **04. Templates Library** <br> In-depth breakdown of key unique selling points (USPs) and workflows. | ![Templates Library](./screenshots/4.png) |
-| **05. Feature Deep-Dive** <br> All features accessible to content creators. | ![Key Features](./screenshots/5.png) |
-| **06. Interactive FAQ Area** <br> Accordion layout built for frequent user queries. | ![FAQ Accordions](./screenshots/6.png) |
-| **07. Final Call-To-Action** <br> Structured tiers designed to maximize conversion pipelines. | ![CTA](./screenshots/7.png) |
-| **08. Footer** <br> High-converting exit section alongside standard site mapping. | ![Footer](./screenshots/8.png) |
+| **03. Creative Artboard** <br> Organize, preview, and refine your AI creations in one intuitive workspace. | ![Creative Artboard](./screenshots/3.png) |
+| **04. Pricing** <br> Filterable hub showcasing premium templates built for online creators. | ![Pricing](./screenshots/4.png) |
+| **05. Templates Library** <br> In-depth breakdown of key unique selling points (USPs) and workflows. | ![Templates Library](./screenshots/5.png) |
+| **06. Style Library** <br> Browse our curated collection of AI styles and presets. Click any style to preview and apply. | ![Style Library](./screenshots/6.png) |
+| **07. Feature Deep-Dive** <br> All features accessible to content creators. | ![Key Features](./screenshots/7.png) |
+| **08. Interactive FAQ Area** <br> Accordion layout built for frequent user queries. | ![FAQ Accordions](./screenshots/8.png) |
+| **09. Final Call-To-Action** <br> Structured tiers designed to maximize conversion pipelines. | ![CTA](./screenshots/9.png) |
+| **10. Footer** <br> High-converting exit section alongside standard site mapping. | ![Footer](./screenshots/10.png) |
 
 ---
 

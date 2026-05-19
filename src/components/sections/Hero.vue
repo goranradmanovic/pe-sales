@@ -28,6 +28,41 @@
               </button>
             </div>
 
+            <div class="max-w-3xl mx-auto mb-8">
+              <div class="relative group">
+                <div class="absolute inset-0 bg-gradient-to-r from-violet-600 to-indigo-600 rounded-2xl blur-xl opacity-20 group-hover:opacity-30 transition-opacity"></div>
+                <div class="relative bg-white rounded-2xl shadow-2xl border-2 border-violet-200 overflow-hidden">
+                  <div class="flex items-center p-2 flex-wrap">
+                    <div class="flex items-center gap-3 flex-1 px-4">
+                      <Search class="w-5 h-5 text-violet-600" />
+                      <input
+                        v-model="aiSearch"
+                        type="text"
+                        placeholder="What would you like to create? Try 'cinematic landscape' or 'energetic voiceover'..."
+                        class="flex-1 py-3 text-slate-700 placeholder:text-slate-400 focus:outline-none"
+                      />
+                    </div>
+                    <button class="bg-gradient-to-r from-violet-600 to-indigo-600 hover:from-violet-500 hover:to-indigo-500 text-white px-6 py-3 rounded-xl font-semibold transition-all hover:scale-105 flex items-center mx-auto gap-2">
+                      Generate
+                      <Sparkles class="w-4 h-4" />
+                    </button>
+                  </div>
+                  <div class="px-6 pb-4 flex flex-wrap gap-2 mt-2">
+                    <span class="text-xs text-slate-500">
+                      Try:
+                    </span>
+                      <button
+                        v-for="(tag, i) in tags"
+                        :key="i"
+                        class="text-xs bg-violet-50 hover:bg-violet-100 text-violet-700 px-3 py-1 rounded-full transition-colors font-medium"
+                      >
+                        {{ tag }}
+                      </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <!-- Trust Badges -->
             <div class="flex flex-wrap items-center justify-center gap-8 text-sm text-slate-600">
               <div class="flex items-center gap-2">
@@ -48,10 +83,20 @@
     </div>
 </template>
 
-<script setup>
-  import { Sparkles, ChevronRight, Check } from '@lucide/vue';
+<script setup lang="ts">
+  import { ref } from 'vue';
+  import { Sparkles, ChevronRight, Check, Search } from '@lucide/vue';
 
   const emit = defineEmits(['openDialog']);
+
+  const tags = ref<string[]>([
+    "Thumbnail Design",
+    "Product Video",
+    "Podcast Intro",
+    "Social Post",
+  ]);
+
+  const aiSearch = ref<string>('');
 
   const openTutorial = () => {
     emit('openDialog');

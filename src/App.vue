@@ -5,10 +5,12 @@
     <HeaderApp />
 
     <!-- Sections -->
-    <Hero  @open-dialog="openDialog" />
+    <Hero @open-dialog="openDialog" />
     <AITools />
+    <ArtBoard />
     <Pricing />
     <TemplatesLibrary />
+    <StyleCatalog />
     <KeyFeatures />
     <Testimonials />
     <FAQ />
@@ -31,6 +33,8 @@
   import FAQ from './components/sections/FAQ.vue';
   import CTA from './components/sections/CTA.vue';
   import FooterApp from './components/base/FooterApp.vue';
+  import ArtBoard from './components/sections/ArtBoard.vue';
+  import StyleCatalog from './components/sections/StyleCatalog.vue';
 
   const isOpen = ref<boolean>(false);
   const openDialog = () => {
