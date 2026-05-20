@@ -13,19 +13,9 @@
                     <SocialLinks />
                 </div>
 
-                <div>
-                    <h3 class="font-bold text-lg mb-4">Product</h3>
-                    <ProductLinks />
-                </div>
-
-                <div>
-                    <h3 class="font-bold text-lg mb-4">Support</h3>
-                    <SupportLinks />
-                </div>
-
-                <div>
-                    <h3 class="font-bold text-lg mb-4">Legal</h3>
-                    <LegalLinks />
+                <div v-for="(item, i) in footerLinks" :key="i">
+                    <h3 class="font-bold text-lg mb-4">{{ item.title }}</h3>
+                    <component :is="item.linksComponent" />
                 </div>
             </div>
 
@@ -42,11 +32,26 @@
     </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
     import { Shield } from '@lucide/vue';
     import Logo from './Logo.vue';
     import SocialLinks from '../ui/footer/SocialLinks.vue';
     import ProductLinks from '../ui/footer/ProductLinks.vue';
     import SupportLinks from '../ui/footer/SupportLinks.vue';
     import LegalLinks from '../ui/footer/LegalLinks.vue';
+
+    const footerLinks: { title: string; linksComponent: any }[] = [
+        {
+            title: 'Product',
+            linksComponent: ProductLinks,
+        },
+        {
+            title: 'Support',
+            linksComponent: SupportLinks,
+        },
+        {
+            title: 'Legal',
+            linksComponent: LegalLinks,
+        },
+    ];
 </script>
