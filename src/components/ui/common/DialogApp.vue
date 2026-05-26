@@ -20,16 +20,29 @@
         </div>
 
         <div class="w-full aspect-video rounded-lg overflow-hidden bg-slate-900">
-            <iframe
-            src="https://fast.wistia.net/embed/iframe/eu37od3pav?web_component=true&amp;seo=true"
-            title="Ai tool vs marketplace Video"
-            allow="autoplay; fullscreen"
-            allowtransparency="true"
-            frameborder="0"
-            scrolling="no"
-            class="w-full h-full"
-            name="wistia_embed"
-            ></iframe>
+            <!--<iframe
+                src="https://fast.wistia.net/embed/iframe/eu37od3pav?web_component=true&amp;seo=true"
+                title="Ai tool vs marketplace Video"
+                allow="autoplay; fullscreen"
+                allowtransparency="true"
+                frameborder="0"
+                scrolling="no"
+                class="w-full h-full"
+                name="wistia_embed"
+            ></iframe>-->
+
+            <iframe 
+                src="https://lorem.video/test_1080p_vp9_30fps_30s_25crf_opus_128kbps.webm"
+                title="Ai tool vs marketplace Video"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+                scrolling="no"
+                class="w-full h-full"
+                allowtransparency="true"
+            >
+            </iframe>
         </div>
 
         <!-- Footer Actions Area -->
