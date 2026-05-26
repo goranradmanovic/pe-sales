@@ -35,7 +35,7 @@
                 src="https://lorem.video/test_1080p_vp9_30fps_30s_25crf_opus_128kbps.webm"
                 title="Ai tool vs marketplace Video"
                 frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
                 scrolling="no"
