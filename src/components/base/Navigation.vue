@@ -5,7 +5,7 @@
         <!-- Logo Area -->
         <div class="flex items-center gap-2">
           <Logo />
-          <span class="text-2xl font-bold bg-gradient-to-r from-violet-600 to-indigo-600 bg-clip-text text-transparent">PromptEdit</span>
+          <span class="text-2xl font-bold bg-gradient-to-r from-violet-600 to-indigo-600 bg-clip-text text-transparent">AIDeals</span>
         </div>
 
         <!-- Desktop Navigation Links (Hidden on small screens, flex on md and up) -->

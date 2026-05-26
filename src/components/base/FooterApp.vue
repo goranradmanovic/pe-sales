@@ -5,7 +5,7 @@
                 <div class="md:col-span-2">
                     <div class="flex items-center gap-2 mb-4">
                         <Logo />
-                        <span class="text-2xl font-bold">PromptEdit</span>
+                        <span class="text-2xl font-bold">AIDeals</span>
                     </div>
                     <p class="text-white/70 mb-6 max-w-sm leading-relaxed">
                         Your all-in-one AI creative studio. Access powerful tools for images, videos, and audio with flexible pay-as-you-go pricing.
@@ -21,7 +21,7 @@
 
             <div class="border-t border-white/10 pt-8">
                 <div class="flex flex-col md:flex-row justify-between items-center gap-4 text-white/60 text-sm">
-                    <p>&copy; 2026 PromptEdit. All rights reserved.</p>
+                    <p>&copy; 2026 AIDeals. All rights reserved.</p>
                     <p class="flex items-center gap-2">
                         <Shield class="w-4 h-4" />
                         100% Secure Payment • 30-Day Money Back Guarantee
@@ -40,7 +40,7 @@
     import SupportLinks from '../ui/footer/SupportLinks.vue';
     import LegalLinks from '../ui/footer/LegalLinks.vue';
 
-    const footerLinks: { title: string; linksComponent: any }[] = [
+    const footerLinks: { title: string; linksComponent: unknown }[] = [
         {
             title: 'Product',
             linksComponent: ProductLinks,
